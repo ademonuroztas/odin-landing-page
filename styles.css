@@ -21,7 +21,7 @@ a {
 
 .first-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 img {
