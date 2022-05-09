@@ -26,3 +26,13 @@ img {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: #3882f6;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
