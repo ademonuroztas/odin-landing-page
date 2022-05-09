@@ -68,3 +68,27 @@ button {
     width: 200px;
     
 }
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 30px;
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: larger;
+}
+
+.quotee {
+    font-weight: bold;
+
+}
