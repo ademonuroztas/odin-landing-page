@@ -26,7 +26,7 @@ a {
 }
 
 img {
-    width: 300px;
+    width: 400px;
     border-radius: 5px;
 }
 
@@ -52,3 +52,19 @@ button {
     align-items: center;
 }
 
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+  }
+  
+  .card {
+    max-width: 200px;
+  }
+
+.card img {
+    width: 200px;
+    
+}
