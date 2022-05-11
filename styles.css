@@ -3,33 +3,64 @@ body {
     flex-direction: column;
     margin: 0;
     height: 200vh;
+    font-family: Roboto, sans-serif;
+
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    padding: 0 300px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    
 
 }
 
 .header {
     display: flex;
-flex: 1;
+    flex: 1;
     justify-content: space-between;
+}
+
+#header-logo {
+    font-weight: 24px;
 }
 
 ul {
     display: flex;
-    list-style-type: none;
     gap: 25px;
-    font-size: larger;
+    list-style-type: none;
+    
 }
 
 a {
     text-decoration: none;
     color: #F9FAF8;
-  }
+}
 
-.first-content {
 
+.hero {
     display: flex;
     flex: 5;
     justify-content: space-between;
     align-items: center;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.test {
+    max-width: 500px;
+    font-size: larger;
 }
 
 img {
@@ -37,22 +68,14 @@ img {
     border-radius: 5px;
 }
 
-.first-section {
-    display: flex;
-    flex-direction: column;
-    flex: 8;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    padding: 0 300px;
-}
-
 button {
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 10px;
     border: #3882f6;
-    width: 100px;
-    height: 30px;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
     font-weight: bold;
 }
 
@@ -69,19 +92,19 @@ button {
     flex: 4;
     gap: 100px;
     text-align: center;
-  }
+}
 
-  .test2 {
-      flex: 2;
-  }
-  
-  .card {
+.test2 {
+    flex: 2;
+}
+
+.card {
     max-width: 300px;
-  }
+}
 
 .card img {
     width: 300px;
-    
+
 }
 
 .third-section {
@@ -128,7 +151,7 @@ button {
     border-radius: 15px;
 }
 
-.fourth-content button{
+.fourth-content button {
     border: 2px solid #F9FAF8;
     font-size: 18px;
     width: 130px;
@@ -148,9 +171,4 @@ button {
     justify-content: center;
     align-items: center;
     font-size: x-large;
-}
-
-.test {
-    max-width: 500px;
-    font-size: larger;
 }
