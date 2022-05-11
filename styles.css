@@ -85,7 +85,7 @@ button {
 }
 
 .third-section {
-    flex: 8;
+    flex: 6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,18 +122,22 @@ button {
     align-items: center;
     justify-content: space-evenly;
     background-color: #3882f6;
-    width: 800px;
-    height: 100px;
+    width: 1200px;
+    height: 170px;
     color: #F9FAF8;
+    border-radius: 15px;
 }
 
 .fourth-content button{
     border: 2px solid #F9FAF8;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
 }
 
 .bold {
     font-weight: bold;
-    font-size: large;
+    font-size: 28px;
 }
 
 .footer {
@@ -143,6 +147,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: x-large;
 }
 
 .test {
