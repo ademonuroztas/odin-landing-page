@@ -96,16 +96,17 @@ button {
 .third-content {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 800px;
     align-items: flex-end;
 }
 
 .quote {
-    font-size: larger;
+    font-size: 36px;
 }
 
 .quotee {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .fourth-section {
