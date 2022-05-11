@@ -8,13 +8,15 @@ body {
 
 .header {
     display: flex;
+flex: 1;
     justify-content: space-between;
 }
 
 ul {
     display: flex;
     list-style-type: none;
-    gap: 18px;
+    gap: 25px;
+    font-size: larger;
 }
 
 a {
@@ -23,8 +25,11 @@ a {
   }
 
 .first-content {
+
     display: flex;
+    flex: 5;
     justify-content: space-between;
+    align-items: center;
 }
 
 img {
@@ -38,7 +43,7 @@ img {
     flex: 8;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 150px;
+    padding: 0 300px;
 }
 
 button {
@@ -133,4 +138,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.test {
+    max-width: 500px;
+    font-size: larger;
 }
