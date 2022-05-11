@@ -94,13 +94,13 @@ button {
 }
 
 .fourth-section {
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .fourth-content {
+    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -117,4 +117,12 @@ button {
 .bold {
     font-weight: bold;
     font-size: large;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
