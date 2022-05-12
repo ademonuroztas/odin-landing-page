@@ -1,10 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
     margin: 0;
     height: 200vh;
-    font-family: Roboto, sans-serif;
-
 }
 
 .first-section {
@@ -14,8 +13,6 @@ body {
     padding: 0 300px;
     background-color: #1F2937;
     color: #F9FAF8;
-    
-
 }
 
 .header {
@@ -32,7 +29,6 @@ ul {
     display: flex;
     gap: 25px;
     list-style-type: none;
-    
 }
 
 a {
@@ -48,6 +44,13 @@ a {
     align-items: center;
 }
 
+.hero-context {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 10px;
+}
+
 #hero-main {
     font-size: 48px;
     font-weight: bolder;
@@ -58,13 +61,9 @@ a {
     color: #E5E7EB;
 }
 
-.test {
-    max-width: 500px;
-    font-size: larger;
-}
-
 img {
-    width: 400px;
+    width: 600px;
+    height: 300px;
     border-radius: 5px;
 }
 
